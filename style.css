@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+#inputText {
+    width: 400px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 18px;
+
+}
+
+#convertBtn {
+    margin-top: 10px;
+    background: #0ffd;
+    border-radius: 6xp;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#audioPlayer {
+    display: none;
+}
